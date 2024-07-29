@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "online-voting-system"
+version = "0.1.0"
+description = "An online voting system that uses Django framework"
+authors = ["Kenan Agyel <kenanagyel@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11, <3.13"
+django = "^5.0.7"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
